@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tiron"
+version = "0.1.0"
+description = "Reference harness for multi-speaker meeting transcription"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "torch",
+  "transformers>=4.46",
+  "soundfile",
+  "librosa",
+  "numpy",
+  "speechbrain",
+  "huggingface_hub",
+]
+
+[project.scripts]
+tiron = "tiron.cli:main"
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.uv]
+managed = false
