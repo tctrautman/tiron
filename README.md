@@ -8,7 +8,9 @@ The harness turns the model's 30-second windows into whole-meeting transcripts:
 2. **Decoding** — greedy transformers decoding of each window into speaker-tagged, timestamped segments.
 3. **Speaker linking** — ECAPA voice embeddings link window-local speakers into stable meeting-level identities, with a second staggered decode pass (on by default) that calibrates the clustering threshold per meeting.
 
-Tiron is state of the art for whole-meeting transcription, leading every meeting test set we evaluated across open and proprietary systems. Its closest rival, AssemblyAI `universal-3-pro`, trails on every corpus (pooled corpus cpWER, same references and scoring, lower is better): AMI 35.24 vs 39.49, ICSI 20.91 vs 34.64, NOTSOFAR-1 37.55 vs 38.62. Details and meeting IDs on the [model card](https://huggingface.co/Trelis/tiron).
+Among systems that reliably transcribe entire meetings, Tiron leads every test set we evaluated. Its closest such rival, AssemblyAI `universal-3-pro`, trails on every corpus (pooled corpus cpWER, same references and scoring, lower is better): AMI 35.24 vs 39.49, ICSI 20.91 vs 34.64, NOTSOFAR-1 37.55 vs 38.62. Details and meeting IDs on the [model card](https://huggingface.co/Trelis/tiron).
+
+![Tiron vs AssemblyAI universal-3-pro — pooled cpWER across AMI, ICSI, and NOTSOFAR-1 (lower is better)](docs/benchmark.png)
 
 This harness uses the same grammar-constrained decoding as Trelis' hosted serving by default (disable with `--no-constrained-decoding` / `constrained_decoding=False`).
 
