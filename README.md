@@ -1,5 +1,7 @@
 # Tiron
 
+*Released 21 July 2026.*
+
 Reference inference harness for [Trelis/tiron](https://huggingface.co/Trelis/tiron), a multi-speaker meeting transcription model (Whisper large-v3 architecture with inline `<|speakerN|>` speaker tokens, up to 8 speakers).
 
 The harness turns the model's 30-second windows into whole-meeting transcripts:
