@@ -4,6 +4,7 @@ Only acoustically aligned whole words may cross a join. Existing A words are
 never deleted. Conflicts abstain for the entire requested region. A proposed
 result still requires independent coverage and human-reference evaluation.
 """
+from collections import Counter
 from dataclasses import dataclass, replace
 import math
 import re
@@ -40,7 +41,8 @@ def refine_shared_timings(a, b, gap, min_score, min_anchor_words):
                       and abs((word.start + word.end - other.start - other.end) / 2) <= .25]
         if len(candidates) == 1:
             pairs[i] = candidates[0]
-    pairs = {i: j for i, j in pairs.items() if list(pairs.values()).count(j) == 1}
+    counts = Counter(pairs.values())
+    pairs = {i: j for i, j in pairs.items() if counts[j] == 1}
     anchors = {}
     for i, j in pairs.items():
         if a[i].timing == 'ctc_forced' and a[i].score >= min_score:
@@ -71,14 +73,8 @@ def refine_shared_timings(a, b, gap, min_score, min_anchor_words):
     return proposed, evidence
 
 
-def reconcile_gap(a, b, gap, *, min_score=.5, min_anchor_words=2):
-    """Return an auditable proposal, never a publishable success flag.
-
-    Scores are mean aligned-token probabilities, not ASR confidence. The .5
-    threshold is provisional. Speaker links require distinct, matching words
-    with overlapping acoustic intervals and unanimous known A identities.
-    Unknown A identities and conflicting anchors cannot be voted away.
-    """
+def validate_alignment_inputs(a, b, gap, *, min_score, min_anchor_words=2):
+    """Shared validation for offline word and passage proposals."""
     start, end = gap
     if not all(math.isfinite(t) for t in gap) or end <= start:
         raise ValueError('invalid gap')
@@ -90,6 +86,19 @@ def reconcile_gap(a, b, gap, *, min_score=.5, min_anchor_words=2):
                 or word.end <= word.start or not 0 <= word.score <= 1
                 or not word.node or not key(word.text)):
             raise ValueError('invalid aligned word')
+    return a, b
+
+
+def reconcile_gap(a, b, gap, *, min_score=.5, min_anchor_words=2):
+    """Return an auditable proposal, never a publishable success flag.
+
+    Scores are mean aligned-token probabilities, not ASR confidence. The .5
+    threshold is provisional. Speaker links require distinct, matching words
+    with overlapping acoustic intervals and unanimous known A identities.
+    Unknown A identities and conflicting anchors cannot be voted away.
+    """
+    start, end = gap
+    a, b = validate_alignment_inputs(a, b, gap, min_score=min_score, min_anchor_words=min_anchor_words)
     original_a = a
     a, retimings = refine_shared_timings(a, b, gap, min_score, min_anchor_words)
     reasons, anchors, candidates = set(), {}, []
