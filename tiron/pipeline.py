@@ -1662,6 +1662,7 @@ def link_with_optional_two_pass(
     timings: dict | None = None,
     log_prefix: str = "[pipeline]",
     min_k_hint: int = 1,
+    capture_pass=None,
 ):
     """Cross-window speaker linking with two-pass calibration as the DEFAULT path.
 
@@ -1701,7 +1702,9 @@ def link_with_optional_two_pass(
                 if len(ca) < pad_chunks_to_samples:
                     chunk_arrs_b[i] = np.concatenate(
                         [ca, np.zeros(pad_chunks_to_samples - len(ca), dtype=ca.dtype)])
-        chunk_segs_b, _ = decode_and_parse(chunk_arrs_b, chunk_durations_b)
+        chunk_segs_b, decode_meta = decode_and_parse(chunk_arrs_b, chunk_durations_b)
+        if capture_pass is not None:
+            capture_pass("B", chunks_b, chunk_arrs_b, chunk_segs_b, decode_meta["raw_text"])
         pass_b = {"chunks": chunks_b, "chunk_segs": chunk_segs_b, "chunk_arrs": chunk_arrs_b}
         timings["pass_b_decode_s"] = round(time.time() - t_b, 3)
 

@@ -384,22 +384,32 @@ class TironEngine:
         demote_weak_spine=config.DEFAULT_DEMOTE_WEAK_SPINE,
         ecapa_smoothing=False,
         low_mass_context_merge=False,
+        mode="legacy",
+        capture_diagnostics=False,
     ) -> dict:
         """Transcribe a meeting and link local speakers across windows."""
         import numpy as np
         from . import pipeline
 
+        if mode != "legacy":
+            raise ValueError(f"unsupported transcription mode: {mode}")
         started = time.time()
         explicit_language = self.normalize_language(language)
         arr = self.decode_audio(audio)
         original_duration = len(arr) / config.SR
+        capture = None
+        if capture_diagnostics:
+            from .diagnostics import DecodeCapture
+            capture = DecodeCapture(sample_rate=config.SR,
+                                    onset_pad_sec=config.PAD_START_SEC,
+                                    original_samples=len(arr))
         if original_duration > config.MAX_AUDIO_SECONDS:
             raise ValueError(
                 f"audio is {original_duration:.1f}s; maximum is "
                 f"{config.MAX_AUDIO_SECONDS}s"
             )
         if len(arr) == 0:
-            return {
+            result = {
                 "duration": 0.0,
                 "language": explicit_language or "auto",
                 "speakers": [],
@@ -408,6 +418,10 @@ class TironEngine:
                 "elapsed_s": round(time.time() - started, 2),
                 "two_pass": None,
             }
+            if capture is not None:
+                capture.record_pass("A", [], [], [], [])
+                result["diagnostics"] = capture.finish({}, {})
+            return result
 
         arr = pipeline.apply_onset_pad(arr, config.PAD_START_SEC)
         duration = len(arr) / config.SR
@@ -451,10 +465,14 @@ class TironEngine:
             chunk_arrs, chunk_durations, language_code=effective_language, max_speakers=cap
         )
 
+        if capture is not None:
+            capture.record_pass("A", chunks, chunk_arrs, chunk_segs, _decoded)
+
         def decode_second_pass(arrays, durations):
-            return self.decode_and_parse_chunks(
+            parsed, decoded = self.decode_and_parse_chunks(
                 arrays, durations, language_code=effective_language, max_speakers=cap
-            )[0], {}
+            )
+            return parsed, {"raw_text": decoded} if capture is not None else {}
 
         use_two_pass = config.TWO_PASS_DEFAULT if two_pass is None else bool(two_pass)
         global_ids, _windows, two_pass_diag = pipeline.link_with_optional_two_pass(
@@ -480,6 +498,7 @@ class TironEngine:
             demote_spine_min_windows=config.DEMOTE_SPINE_MIN_WINDOWS,
             pad_chunks_to_samples=target_samples,
             log_prefix="[tiron]",
+            **({"capture_pass": capture.record_pass} if capture is not None else {}),
         )
 
         segments = []
@@ -514,7 +533,7 @@ class TironEngine:
         pipeline.shift_segments_to_original_timeline(
             segments, config.PAD_START_SEC
         )
-        return {
+        result = {
             "duration": round(original_duration, 2),
             "language": effective_language,
             "speakers": sorted({segment["speaker"] for segment in segments}),
@@ -523,3 +542,9 @@ class TironEngine:
             "elapsed_s": round(time.time() - started, 2),
             "two_pass": two_pass_diag,
         }
+        if capture is not None:
+            result["diagnostics"] = capture.finish(
+                global_ids, remap,
+                post_link_merges=bool(low_mass_context_merge or ecapa_smoothing),
+            )
+        return result
