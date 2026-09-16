@@ -1,0 +1,1230 @@
+{
+  "provenance": {
+    "media_sha256": "4ee9daca840dae2034e403d61190616a51e45e0dfdba13d2b1c3a47658b263f3",
+    "aligner_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+    "human_verified": false
+  },
+  "gap": [
+    112.98,
+    128.52
+  ],
+  "A": [
+    {
+      "end": 102.97,
+      "node": "A:3:3",
+      "score": 0.6657070632668789,
+      "speaker": "A:3:3",
+      "start": 102.89,
+      "text": "so",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 103.07,
+      "node": "A:3:3",
+      "score": 0.5125406807366087,
+      "speaker": "A:3:3",
+      "start": 103.05,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 103.21,
+      "node": "A:3:3",
+      "score": 0.37946132607092853,
+      "speaker": "A:3:3",
+      "start": 103.11,
+      "text": "lot",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 103.27,
+      "node": "A:3:3",
+      "score": 0.00022508742547487767,
+      "speaker": "A:3:3",
+      "start": 103.22999999999999,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 103.35,
+      "node": "A:3:3",
+      "score": 0.993591152796586,
+      "speaker": "A:3:3",
+      "start": 103.28999999999999,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 103.55,
+      "node": "A:3:3",
+      "score": 0.9234278024558135,
+      "speaker": "A:3:3",
+      "start": 103.41,
+      "text": "good",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 103.86999999999999,
+      "node": "A:3:3",
+      "score": 0.9257298723668322,
+      "speaker": "A:3:3",
+      "start": 103.61,
+      "text": "folks",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 104.08999999999999,
+      "node": "A:3:3",
+      "score": 0.9898014229997931,
+      "speaker": "A:3:3",
+      "start": 103.94999999999999,
+      "text": "that",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 104.39,
+      "node": "A:3:3",
+      "score": 0.9463823349964459,
+      "speaker": "A:3:3",
+      "start": 104.22999999999999,
+      "text": "live",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 104.63,
+      "node": "A:3:3",
+      "score": 0.8442747060451777,
+      "speaker": "A:3:3",
+      "start": 104.42999999999999,
+      "text": "here",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 105.36999999999999,
+      "node": "A:3:3",
+      "score": 0.997032756848594,
+      "speaker": "A:3:3",
+      "start": 104.86999999999999,
+      "text": "vacation",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 105.47,
+      "node": "A:3:3",
+      "score": 0.00015061277540683293,
+      "speaker": "A:3:3",
+      "start": 105.44999999999999,
+      "text": "r-",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 106.39,
+      "node": "A:3:3",
+      "score": 0.9329133470554333,
+      "speaker": "A:3:3",
+      "start": 105.89,
+      "text": "routinely",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 106.33,
+      "node": "A:3:3",
+      "score": 0.37955744881908826,
+      "speaker": "A:3:3",
+      "start": 106.19,
+      "text": "and",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 107.05,
+      "node": "A:3:3",
+      "score": 0.9994561596034764,
+      "speaker": "A:3:3",
+      "start": 106.61,
+      "text": "frequently",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 107.17,
+      "node": "A:3:3",
+      "score": 0.8045862801316794,
+      "speaker": "A:3:3",
+      "start": 107.13000000000001,
+      "text": "in",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 107.43,
+      "node": "A:3:3",
+      "score": 0.8656735331285161,
+      "speaker": "A:3:3",
+      "start": 107.21000000000001,
+      "text": "Myrtle",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 107.59,
+      "node": "A:3:3",
+      "score": 0.9914047926347228,
+      "speaker": "A:3:3",
+      "start": 107.45,
+      "text": "Beach",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 107.85000000000001,
+      "node": "A:3:3",
+      "score": 0.9449622700360716,
+      "speaker": "A:3:3",
+      "start": 107.65,
+      "text": "South",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 108.17,
+      "node": "A:3:3",
+      "score": 0.5513801203093878,
+      "speaker": "A:3:3",
+      "start": 107.89,
+      "text": "Carolina",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 108.25,
+      "node": "A:3:3",
+      "score": 0.6666583321491619,
+      "speaker": "A:3:3",
+      "start": 108.21000000000001,
+      "text": "so",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 108.37,
+      "node": "A:3:3",
+      "score": 0.22864736865378152,
+      "speaker": "A:3:3",
+      "start": 108.29,
+      "text": "it's",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 108.49000000000001,
+      "node": "A:3:3",
+      "score": 0.9560098259377583,
+      "speaker": "A:3:3",
+      "start": 108.39,
+      "text": "good",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 108.55,
+      "node": "A:3:3",
+      "score": 0.8904018102215474,
+      "speaker": "A:3:3",
+      "start": 108.51,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 108.63000000000001,
+      "node": "A:3:3",
+      "score": 0.9672269300001969,
+      "speaker": "A:3:3",
+      "start": 108.59,
+      "text": "be",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 108.75,
+      "node": "A:3:3",
+      "score": 0.9762944982230366,
+      "speaker": "A:3:3",
+      "start": 108.67,
+      "text": "with",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 108.83,
+      "node": "A:3:3",
+      "score": 0.9921365205346085,
+      "speaker": "A:3:3",
+      "start": 108.77000000000001,
+      "text": "you",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 109.07000000000001,
+      "node": "A:3:3",
+      "score": 0.871009384861698,
+      "speaker": "A:3:3",
+      "start": 108.85000000000001,
+      "text": "today.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 111.11,
+      "node": "A:3:4",
+      "score": 0.8825734297302996,
+      "speaker": "A:3:4",
+      "start": 111.00999999999999,
+      "text": "I'm",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 111.64999999999999,
+      "node": "A:3:4",
+      "score": 0.617445961707223,
+      "speaker": "A:3:4",
+      "start": 111.14999999999999,
+      "text": "Representative",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 111.83,
+      "node": "A:3:4",
+      "score": 0.5473070187573911,
+      "speaker": "A:3:4",
+      "start": 111.67,
+      "text": "Mark",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 112.33,
+      "node": "A:3:4",
+      "score": 0.567351820657839,
+      "speaker": "A:3:4",
+      "start": 111.92999999999999,
+      "text": "Harris.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 112.44999999999999,
+      "node": "A:3:4",
+      "score": 0.9755124353642572,
+      "speaker": "A:3:4",
+      "start": 112.42999999999999,
+      "text": "I",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 113.02999999999999,
+      "node": "A:3:4",
+      "score": 0.6481247938964628,
+      "speaker": "A:3:4",
+      "start": 112.52999999999999,
+      "text": "represent",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 128.82999999999998,
+      "node": "A:4:1",
+      "score": 0.007317033502385509,
+      "speaker": "A:4:1",
+      "start": 128.67,
+      "text": "Uh,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 129.01000000000002,
+      "node": "A:4:1",
+      "score": 0.5498887025219543,
+      "speaker": "A:4:1",
+      "start": 128.75,
+      "text": "Scott",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 129.69000000000003,
+      "node": "A:4:1",
+      "score": 0.5190452096787087,
+      "speaker": "A:4:1",
+      "start": 129.05,
+      "text": "Fitzgerald,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 129.36993750000002,
+      "node": "A:4:1",
+      "score": 0.3826127629838485,
+      "speaker": "A:4:1",
+      "start": 129.3499375,
+      "text": "I",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 130.1899375,
+      "node": "A:4:1",
+      "score": 0.9262437709063307,
+      "speaker": "A:4:1",
+      "start": 129.8499375,
+      "text": "represent",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 130.30993750000002,
+      "node": "A:4:1",
+      "score": 0.881572631622058,
+      "speaker": "A:4:1",
+      "start": 130.24993750000002,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 130.5699375,
+      "node": "A:4:1",
+      "score": 0.9673862365469852,
+      "speaker": "A:4:1",
+      "start": 130.36993750000002,
+      "text": "fifth",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 131.0099375,
+      "node": "A:4:1",
+      "score": 0.9697147372533226,
+      "speaker": "A:4:1",
+      "start": 130.6299375,
+      "text": "district",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 131.14993750000002,
+      "node": "A:4:1",
+      "score": 0.9065256785730262,
+      "speaker": "A:4:1",
+      "start": 131.1099375,
+      "text": "in",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 131.8499375,
+      "node": "A:4:1",
+      "score": 0.8650731439036455,
+      "speaker": "A:4:1",
+      "start": 131.2299375,
+      "text": "Wisconsin,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 132.11,
+      "node": "A:4:1",
+      "score": 0.9431526693671767,
+      "speaker": "A:4:1",
+      "start": 131.93,
+      "text": "which",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 132.33,
+      "node": "A:4:1",
+      "score": 0.9996600857350223,
+      "speaker": "A:4:1",
+      "start": 132.25,
+      "text": "is",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 132.59,
+      "node": "A:4:1",
+      "score": 0.9982153442017078,
+      "speaker": "A:4:1",
+      "start": 132.53,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 132.85,
+      "node": "A:4:1",
+      "score": 0.9833596094496331,
+      "speaker": "A:4:1",
+      "start": 132.65,
+      "text": "west",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 133.47,
+      "node": "A:4:1",
+      "score": 0.9485720689325247,
+      "speaker": "A:4:1",
+      "start": 132.95,
+      "text": "suburbs",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 133.61,
+      "node": "A:4:1",
+      "score": 0.9998124679050895,
+      "speaker": "A:4:1",
+      "start": 133.57,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 134.19,
+      "node": "A:4:1",
+      "score": 0.4839320063370722,
+      "speaker": "A:4:1",
+      "start": 133.71,
+      "text": "Milwaukee",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 134.75,
+      "node": "A:4:1",
+      "score": 0.9977096869009549,
+      "speaker": "A:4:1",
+      "start": 134.67,
+      "text": "for",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 134.85,
+      "node": "A:4:1",
+      "score": 0.988653789521721,
+      "speaker": "A:4:1",
+      "start": 134.79,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 135.05,
+      "node": "A:4:1",
+      "score": 0.9512500841223309,
+      "speaker": "A:4:1",
+      "start": 134.89000000000001,
+      "text": "most",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 135.25,
+      "node": "A:4:1",
+      "score": 0.9998848887331463,
+      "speaker": "A:4:1",
+      "start": 135.11,
+      "text": "part.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 136.17,
+      "node": "A:4:1",
+      "score": 0.4280018050341924,
+      "speaker": "A:4:1",
+      "start": 136.07,
+      "text": "Um,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 136.87,
+      "node": "A:4:1",
+      "score": 0.9445096421801462,
+      "speaker": "A:4:1",
+      "start": 136.67,
+      "text": "still",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 136.91,
+      "node": "A:4:1",
+      "score": 0.9389271519720798,
+      "speaker": "A:4:1",
+      "start": 136.89,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 137.09,
+      "node": "A:4:1",
+      "score": 0.9179685374145051,
+      "speaker": "A:4:1",
+      "start": 136.95,
+      "text": "little",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 137.23,
+      "node": "A:4:1",
+      "score": 0.8970054984038893,
+      "speaker": "A:4:1",
+      "start": 137.13,
+      "text": "bit",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 137.31,
+      "node": "A:4:1",
+      "score": 0.9767734997989351,
+      "speaker": "A:4:1",
+      "start": 137.27,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 137.59,
+      "node": "A:4:1",
+      "score": 0.9521886292662313,
+      "speaker": "A:4:1",
+      "start": 137.47,
+      "text": "ag,",
+      "timing": "ctc_forced"
+    }
+  ],
+  "B": [
+    {
+      "end": 111.11,
+      "node": "B:5:1",
+      "score": 0.8826802029124574,
+      "speaker": null,
+      "start": 111.00999999999999,
+      "text": "I'm",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 111.64999999999999,
+      "node": "B:5:1",
+      "score": 0.617492066104279,
+      "speaker": null,
+      "start": 111.14999999999999,
+      "text": "Representative",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 111.83,
+      "node": "B:5:1",
+      "score": 0.5474280250654406,
+      "speaker": null,
+      "start": 111.67,
+      "text": "Mark",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 112.33,
+      "node": "B:5:1",
+      "score": 0.5673795749353824,
+      "speaker": null,
+      "start": 111.92999999999999,
+      "text": "Harris.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 112.44999999999999,
+      "node": "B:5:1",
+      "score": 0.9441369815189935,
+      "speaker": null,
+      "start": 112.42999999999999,
+      "text": "I",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 112.92999999999999,
+      "node": "B:5:1",
+      "score": 0.9991726083656257,
+      "speaker": null,
+      "start": 112.52999999999999,
+      "text": "represent",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 113.02999999999999,
+      "node": "B:5:1",
+      "score": 0.9782575394317949,
+      "speaker": null,
+      "start": 112.97,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 113.27,
+      "node": "B:5:1",
+      "score": 0.9937122099578835,
+      "speaker": null,
+      "start": 113.11,
+      "text": "eighth",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 113.64999999999999,
+      "node": "B:5:1",
+      "score": 0.9621859653781738,
+      "speaker": null,
+      "start": 113.36999999999999,
+      "text": "district",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 113.75,
+      "node": "B:5:1",
+      "score": 0.9980151214836919,
+      "speaker": null,
+      "start": 113.71,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 113.97,
+      "node": "B:5:1",
+      "score": 0.9993520129984471,
+      "speaker": null,
+      "start": 113.80999999999999,
+      "text": "North",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 114.61,
+      "node": "B:5:1",
+      "score": 0.7148100443810382,
+      "speaker": null,
+      "start": 114.00999999999999,
+      "text": "Carolina,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 114.77000000000001,
+      "node": "B:5:1",
+      "score": 0.9999233383571602,
+      "speaker": null,
+      "start": 114.63000000000001,
+      "text": "which",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 115.37,
+      "node": "B:5:1",
+      "score": 0.9380176718690031,
+      "speaker": null,
+      "start": 114.87,
+      "text": "includes",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 115.73,
+      "node": "B:5:1",
+      "score": 0.005380996025355599,
+      "speaker": null,
+      "start": 115.69,
+      "text": "uh",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 115.91000000000001,
+      "node": "B:5:1",
+      "score": 0.9594674065201367,
+      "speaker": null,
+      "start": 115.83,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 116.37,
+      "node": "B:5:1",
+      "score": 0.9160127017104892,
+      "speaker": null,
+      "start": 116.03,
+      "text": "eastern",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 116.71000000000001,
+      "node": "B:5:1",
+      "score": 0.9025274219525807,
+      "speaker": null,
+      "start": 116.47,
+      "text": "side",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 116.79,
+      "node": "B:5:1",
+      "score": 0.9806151613777581,
+      "speaker": null,
+      "start": 116.75,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 117.33,
+      "node": "B:5:1",
+      "score": 0.7556831756752733,
+      "speaker": null,
+      "start": 116.83,
+      "text": "Mecklenburg",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 117.75,
+      "node": "B:5:1",
+      "score": 0.999905706276517,
+      "speaker": null,
+      "start": 117.45,
+      "text": "County,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 118.17,
+      "node": "B:5:1",
+      "score": 0.9747388041248349,
+      "speaker": null,
+      "start": 118.15,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 118.39,
+      "node": "B:5:1",
+      "score": 0.9895237090991384,
+      "speaker": null,
+      "start": 118.21,
+      "text": "little",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 118.55,
+      "node": "B:5:1",
+      "score": 0.9995750944363863,
+      "speaker": null,
+      "start": 118.43,
+      "text": "bit",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 118.67,
+      "node": "B:5:1",
+      "score": 0.9981240636981715,
+      "speaker": null,
+      "start": 118.61,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 118.81,
+      "node": "B:5:1",
+      "score": 0.9972290490223096,
+      "speaker": null,
+      "start": 118.75,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 119.19,
+      "node": "B:5:1",
+      "score": 0.9995802598033021,
+      "speaker": null,
+      "start": 118.89,
+      "text": "south,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 119.86999999999999,
+      "node": "B:5:1",
+      "score": 0.818419068123635,
+      "speaker": null,
+      "start": 119.77,
+      "text": "and",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 120.11,
+      "node": "B:5:1",
+      "score": 0.003929450638558493,
+      "speaker": null,
+      "start": 120.05,
+      "text": "uh",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 120.39,
+      "node": "B:5:1",
+      "score": 0.9513741160525975,
+      "speaker": null,
+      "start": 120.25,
+      "text": "all",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 120.49,
+      "node": "B:5:1",
+      "score": 0.9986206990353912,
+      "speaker": null,
+      "start": 120.42999999999999,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 120.64999999999999,
+      "node": "B:5:1",
+      "score": 0.9937637723588826,
+      "speaker": null,
+      "start": 120.55,
+      "text": "way",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 120.91,
+      "node": "B:5:1",
+      "score": 0.907476178796772,
+      "speaker": null,
+      "start": 120.71,
+      "text": "down",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 121.05,
+      "node": "B:5:1",
+      "score": 0.5091728017937901,
+      "speaker": null,
+      "start": 120.97,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 121.45,
+      "node": "B:5:1",
+      "score": 0.7100742187335088,
+      "speaker": null,
+      "start": 121.07,
+      "text": "Interstate",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 122.11,
+      "node": "B:5:1",
+      "score": 0.9433675326229108,
+      "speaker": null,
+      "start": 121.53,
+      "text": "ninety-five.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 122.27,
+      "node": "B:5:1",
+      "score": 0.9911901666754073,
+      "speaker": null,
+      "start": 122.19,
+      "text": "So",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 122.35,
+      "node": "B:5:1",
+      "score": 0.06444363325948312,
+      "speaker": null,
+      "start": 122.33,
+      "text": "I",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 122.51,
+      "node": "B:5:1",
+      "score": 0.9144210022981234,
+      "speaker": null,
+      "start": 122.39,
+      "text": "have",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 122.57,
+      "node": "B:5:1",
+      "score": 0.9247716203668913,
+      "speaker": null,
+      "start": 122.55,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 122.75,
+      "node": "B:5:1",
+      "score": 0.9161644185589969,
+      "speaker": null,
+      "start": 122.61,
+      "text": "lot",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 122.83,
+      "node": "B:5:1",
+      "score": 0.9272414496012129,
+      "speaker": null,
+      "start": 122.78999999999999,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 123.01,
+      "node": "B:5:1",
+      "score": 0.7359792705085907,
+      "speaker": null,
+      "start": 122.87,
+      "text": "those",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 123.31,
+      "node": "B:5:1",
+      "score": 0.9531123287244959,
+      "speaker": null,
+      "start": 123.07,
+      "text": "rural",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 123.77,
+      "node": "B:5:1",
+      "score": 0.9446777806982372,
+      "speaker": null,
+      "start": 123.41,
+      "text": "counties",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 124.51,
+      "node": "B:5:1",
+      "score": 0.015432755043401455,
+      "speaker": null,
+      "start": 124.45,
+      "text": "uh",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 124.69,
+      "node": "B:5:1",
+      "score": 0.3801370280203405,
+      "speaker": null,
+      "start": 124.61,
+      "text": "that",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 124.83,
+      "node": "B:5:1",
+      "score": 0.3256945147485279,
+      "speaker": null,
+      "start": 124.77,
+      "text": "are",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 125.09,
+      "node": "B:5:1",
+      "score": 0.992708177990717,
+      "speaker": null,
+      "start": 124.91,
+      "text": "part",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 125.19,
+      "node": "B:5:1",
+      "score": 0.9943310490702133,
+      "speaker": null,
+      "start": 125.15,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 125.39,
+      "node": "B:5:1",
+      "score": 0.9780363330910684,
+      "speaker": null,
+      "start": 125.27,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 125.57,
+      "node": "B:5:1",
+      "score": 0.02964637908213194,
+      "speaker": null,
+      "start": 125.51,
+      "text": "uh",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 125.83,
+      "node": "B:5:1",
+      "score": 0.8041090066663511,
+      "speaker": null,
+      "start": 125.69,
+      "text": "eighth",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 126.19,
+      "node": "B:5:1",
+      "score": 0.9417633205022607,
+      "speaker": null,
+      "start": 125.87,
+      "text": "district",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 126.33,
+      "node": "B:5:1",
+      "score": 0.9986468377993272,
+      "speaker": null,
+      "start": 126.27,
+      "text": "as",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 126.59,
+      "node": "B:5:1",
+      "score": 0.9993685390552458,
+      "speaker": null,
+      "start": 126.41,
+      "text": "well.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 128.73000000000002,
+      "node": "B:5:2",
+      "score": 0.00015857989130791078,
+      "speaker": null,
+      "start": 128.67000000000002,
+      "text": "Uh,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 129.01000000000002,
+      "node": "B:5:2",
+      "score": 0.530737375463936,
+      "speaker": null,
+      "start": 128.77,
+      "text": "Scott",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 129.69,
+      "node": "B:5:2",
+      "score": 0.514021437506271,
+      "speaker": null,
+      "start": 129.05,
+      "text": "Fitzgerald.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 129.39000000000001,
+      "node": "B:5:2",
+      "score": 0.4433020463658185,
+      "speaker": null,
+      "start": 129.37,
+      "text": "I",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 130.19000000000003,
+      "node": "B:5:2",
+      "score": 0.9409627677460299,
+      "speaker": null,
+      "start": 129.85000000000002,
+      "text": "represent",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 130.31,
+      "node": "B:5:2",
+      "score": 0.944370123422734,
+      "speaker": null,
+      "start": 130.25,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 130.57000000000002,
+      "node": "B:5:2",
+      "score": 0.985961822813659,
+      "speaker": null,
+      "start": 130.37,
+      "text": "fifth",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 131.01000000000002,
+      "node": "B:5:2",
+      "score": 0.9778369114219806,
+      "speaker": null,
+      "start": 130.63000000000002,
+      "text": "district",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 131.15,
+      "node": "B:5:2",
+      "score": 0.8562102559230507,
+      "speaker": null,
+      "start": 131.11,
+      "text": "in",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 131.85000000000002,
+      "node": "B:5:2",
+      "score": 0.8656730959407375,
+      "speaker": null,
+      "start": 131.23000000000002,
+      "text": "Wisconsin,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 132.10999999999999,
+      "node": "B:5:2",
+      "score": 0.9809629210949503,
+      "speaker": null,
+      "start": 131.93,
+      "text": "which",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 132.32999999999998,
+      "node": "B:5:2",
+      "score": 0.9982467698707076,
+      "speaker": null,
+      "start": 132.25,
+      "text": "is",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 132.59,
+      "node": "B:5:2",
+      "score": 0.9990926794308325,
+      "speaker": null,
+      "start": 132.53,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 132.85,
+      "node": "B:5:2",
+      "score": 0.9997271784074292,
+      "speaker": null,
+      "start": 132.65,
+      "text": "west",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 133.47,
+      "node": "B:5:2",
+      "score": 0.9957652279116326,
+      "speaker": null,
+      "start": 132.95,
+      "text": "suburbs",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 133.60999999999999,
+      "node": "B:5:2",
+      "score": 0.9997885816314886,
+      "speaker": null,
+      "start": 133.57,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 134.26999999999998,
+      "node": "B:5:2",
+      "score": 0.4259985907976663,
+      "speaker": null,
+      "start": 133.73,
+      "text": "Milwaukee.",
+      "timing": "ctc_forced"
+    }
+  ]
+}

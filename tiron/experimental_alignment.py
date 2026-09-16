@@ -14,7 +14,7 @@ def prepare_words(text, vocabulary):
     if not words:
         raise ValueError('empty text')
     normalized = [key(word) for word in words]
-    if any(not token or any(c.isdigit() for c in word)
+    if any(not token or any(c.isdigit() or (c.isalpha() and not c.isascii()) for c in word)
            for word, token in zip(words, normalized)):
         raise ValueError('unrepresentable word; no interpolation permitted')
     labels = '|'.join(normalized)
@@ -25,7 +25,8 @@ def prepare_words(text, vocabulary):
 
 def words_from_path(words, targets, path, scores, *, blank, delimiter,
                     frame_seconds, offset, node, speaker=None):
-    if len(path) != len(scores) or frame_seconds <= 0:
+    if (len(path) != len(scores) or not math.isfinite(frame_seconds)
+            or frame_seconds <= 0 or not math.isfinite(offset)):
         raise ValueError('invalid alignment dimensions')
     collapsed, previous, groups, frames = [], None, [], []
     for index, (token, score) in enumerate(zip(path, scores)):

@@ -1,0 +1,1392 @@
+{
+  "provenance": {
+    "media_sha256": "4ee9daca840dae2034e403d61190616a51e45e0dfdba13d2b1c3a47658b263f3",
+    "aligner_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+    "human_verified": false
+  },
+  "gap": [
+    1883.65,
+    1887.17
+  ],
+  "A": [
+    {
+      "end": 1874.45,
+      "node": "A:65:1",
+      "score": 0.9884692734872479,
+      "speaker": "A:65:1",
+      "start": 1873.69,
+      "text": "discrimination",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1874.95,
+      "node": "A:65:1",
+      "score": 0.8952884709750147,
+      "speaker": "A:65:1",
+      "start": 1874.87,
+      "text": "and",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1875.11,
+      "node": "A:65:1",
+      "score": 0.9663733546517281,
+      "speaker": "A:65:1",
+      "start": 1874.99,
+      "text": "it's",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1875.21,
+      "node": "A:65:1",
+      "score": 0.9788360894473866,
+      "speaker": "A:65:1",
+      "start": 1875.17,
+      "text": "an",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1875.93,
+      "node": "A:65:1",
+      "score": 0.9004020606170212,
+      "speaker": "A:65:1",
+      "start": 1875.27,
+      "text": "incentive",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1876.59,
+      "node": "A:65:1",
+      "score": 0.9995956537685928,
+      "speaker": "A:65:1",
+      "start": 1876.47,
+      "text": "for",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1876.99,
+      "node": "A:65:1",
+      "score": 0.9796580644425451,
+      "speaker": "A:65:1",
+      "start": 1876.69,
+      "text": "small",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1877.71,
+      "node": "A:65:1",
+      "score": 0.9594919946926023,
+      "speaker": "A:65:1",
+      "start": 1877.07,
+      "text": "employers",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1878.31,
+      "node": "A:65:1",
+      "score": 0.9993515273282529,
+      "speaker": "A:65:1",
+      "start": 1878.23,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1878.67,
+      "node": "A:65:1",
+      "score": 0.9976955138505168,
+      "speaker": "A:65:1",
+      "start": 1878.3899999999999,
+      "text": "stop",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1879.21,
+      "node": "A:65:1",
+      "score": 0.9914919840688172,
+      "speaker": "A:65:1",
+      "start": 1878.83,
+      "text": "offering",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1879.6899999999998,
+      "node": "A:65:1",
+      "score": 0.8771321737367401,
+      "speaker": "A:65:1",
+      "start": 1879.27,
+      "text": "coverage",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1880.21,
+      "node": "A:65:1",
+      "score": 0.4008451300012251,
+      "speaker": "A:65:1",
+      "start": 1880.11,
+      "text": "um",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1880.73,
+      "node": "A:65:1",
+      "score": 0.995113558983716,
+      "speaker": "A:65:1",
+      "start": 1880.6499999999999,
+      "text": "and",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1881.01,
+      "node": "A:65:1",
+      "score": 0.9796583553042819,
+      "speaker": "A:65:1",
+      "start": 1880.81,
+      "text": "that",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1881.4099999999999,
+      "node": "A:65:1",
+      "score": 0.9997117243042017,
+      "speaker": "A:65:1",
+      "start": 1881.29,
+      "text": "is",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1881.9299999999998,
+      "node": "A:65:1",
+      "score": 0.950115903809159,
+      "speaker": "A:65:1",
+      "start": 1881.59,
+      "text": "really",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1882.4099999999999,
+      "node": "A:65:1",
+      "score": 0.0017271432773393524,
+      "speaker": "A:65:1",
+      "start": 1882.35,
+      "text": "um",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1882.77,
+      "node": "A:65:1",
+      "score": 0.9265317397884768,
+      "speaker": "A:65:1",
+      "start": 1882.6299999999999,
+      "text": "would",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1882.85,
+      "node": "A:65:1",
+      "score": 0.9997423368553958,
+      "speaker": "A:65:1",
+      "start": 1882.81,
+      "text": "be",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1882.9099999999999,
+      "node": "A:65:1",
+      "score": 0.6034779166740453,
+      "speaker": "A:65:1",
+      "start": 1882.8899999999999,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1883.3899999999999,
+      "node": "A:65:1",
+      "score": 0.9945068448399681,
+      "speaker": "A:65:1",
+      "start": 1882.97,
+      "text": "detriment",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1883.51,
+      "node": "A:65:1",
+      "score": 0.9985189669612045,
+      "speaker": "A:65:1",
+      "start": 1883.4499999999998,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1883.85,
+      "node": "A:65:1",
+      "score": 0.33277293380715145,
+      "speaker": "A:65:1",
+      "start": 1883.6699999999998,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1887.1799999999998,
+      "node": "A:66:1",
+      "score": 0.9965943072219539,
+      "speaker": "A:66:1",
+      "start": 1887.04,
+      "text": "Thank",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1887.32,
+      "node": "A:66:1",
+      "score": 0.9259906508105076,
+      "speaker": "A:66:1",
+      "start": 1887.22,
+      "text": "you,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1887.62,
+      "node": "A:66:1",
+      "score": 0.46301401140032244,
+      "speaker": "A:66:1",
+      "start": 1887.3799999999999,
+      "text": "sir.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1888.3799999999999,
+      "node": "A:66:2",
+      "score": 0.0004218731829307114,
+      "speaker": "A:66:2",
+      "start": 1888.34,
+      "text": "Do",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1888.46,
+      "node": "A:66:2",
+      "score": 0.0003259683921425993,
+      "speaker": "A:66:2",
+      "start": 1888.3999999999999,
+      "text": "you",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1888.8,
+      "node": "A:66:2",
+      "score": 0.003608392181536143,
+      "speaker": "A:66:2",
+      "start": 1888.52,
+      "text": "have",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1888.9199999999998,
+      "node": "A:66:2",
+      "score": 0.2888859573083894,
+      "speaker": "A:66:2",
+      "start": 1888.82,
+      "text": "any",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1889.1599999999999,
+      "node": "A:66:2",
+      "score": 0.2033021507903748,
+      "speaker": "A:66:2",
+      "start": 1888.96,
+      "text": "notes",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1889.48,
+      "node": "A:66:2",
+      "score": 0.5058213832352968,
+      "speaker": "A:66:2",
+      "start": 1889.24,
+      "text": "back,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1890.28,
+      "node": "A:66:2",
+      "score": 0.09326782416958407,
+      "speaker": "A:66:2",
+      "start": 1889.78,
+      "text": "Congresswoman",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1890.52,
+      "node": "A:66:2",
+      "score": 0.005198775862409012,
+      "speaker": "A:66:2",
+      "start": 1890.4199999999998,
+      "text": "from",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1890.96,
+      "node": "A:66:2",
+      "score": 0.10839526991310582,
+      "speaker": "A:66:2",
+      "start": 1890.54,
+      "text": "Wyoming?",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1892.52,
+      "node": "A:66:3",
+      "score": 0.983537768480704,
+      "speaker": "A:66:3",
+      "start": 1892.3400000000001,
+      "text": "Thank",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.28,
+      "node": "A:66:3",
+      "score": 0.333284425582829,
+      "speaker": "A:66:3",
+      "start": 1893.14,
+      "text": "you.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1892.62,
+      "node": "A:66:3",
+      "score": 0.0010625814463990399,
+      "speaker": "A:66:3",
+      "start": 1892.6,
+      "text": "I",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.2199999999998,
+      "node": "A:66:3",
+      "score": 0.999807294807673,
+      "speaker": "A:66:3",
+      "start": 1893.1399999999999,
+      "text": "do",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.4199999999998,
+      "node": "A:66:3",
+      "score": 0.9990845293348443,
+      "speaker": "A:66:3",
+      "start": 1893.3,
+      "text": "want",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.52,
+      "node": "A:66:3",
+      "score": 0.9978379911371448,
+      "speaker": "A:66:3",
+      "start": 1893.4599999999998,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.82,
+      "node": "A:66:3",
+      "score": 0.9414581133193503,
+      "speaker": "A:66:3",
+      "start": 1893.58,
+      "text": "record",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.9399999999998,
+      "node": "A:66:3",
+      "score": 0.9999502326676575,
+      "speaker": "A:66:3",
+      "start": 1893.8799999999999,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1894.4399999999998,
+      "node": "A:66:3",
+      "score": 0.9583301774948895,
+      "speaker": "A:66:3",
+      "start": 1894.0,
+      "text": "reflect",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1894.9599999999998,
+      "node": "A:66:3",
+      "score": 0.9997865382091975,
+      "speaker": "A:66:3",
+      "start": 1894.78,
+      "text": "that",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1895.24,
+      "node": "A:66:3",
+      "score": 0.8825888357716155,
+      "speaker": "A:66:3",
+      "start": 1895.08,
+      "text": "none",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1895.3,
+      "node": "A:66:3",
+      "score": 0.9998881347041914,
+      "speaker": "A:66:3",
+      "start": 1895.26,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1895.4399999999998,
+      "node": "A:66:3",
+      "score": 0.9898841535821739,
+      "speaker": "A:66:3",
+      "start": 1895.36,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1896.0,
+      "node": "A:66:3",
+      "score": 0.9880199649990921,
+      "speaker": "A:66:3",
+      "start": 1895.48,
+      "text": "Democrats",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1896.1999999999998,
+      "node": "A:66:3",
+      "score": 0.9914745192982906,
+      "speaker": "A:66:3",
+      "start": 1896.06,
+      "text": "have",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1896.4599999999998,
+      "node": "A:66:3",
+      "score": 0.9877667670011893,
+      "speaker": "A:66:3",
+      "start": 1896.24,
+      "text": "shown",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1896.6,
+      "node": "A:66:3",
+      "score": 0.9986586653578388,
+      "speaker": "A:66:3",
+      "start": 1896.56,
+      "text": "up",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1896.8799999999999,
+      "node": "A:66:3",
+      "score": 0.9997631216515454,
+      "speaker": "A:66:3",
+      "start": 1896.76,
+      "text": "for",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1897.12,
+      "node": "A:66:3",
+      "score": 0.9592754646992349,
+      "speaker": "A:66:3",
+      "start": 1896.9599999999998,
+      "text": "this",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1897.5,
+      "node": "A:66:3",
+      "score": 0.9419165160162728,
+      "speaker": "A:66:3",
+      "start": 1897.1799999999998,
+      "text": "hearing",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1898.12,
+      "node": "A:66:3",
+      "score": 0.9988800960492518,
+      "speaker": "A:66:3",
+      "start": 1898.04,
+      "text": "and",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1898.34,
+      "node": "A:66:3",
+      "score": 0.9985709616955545,
+      "speaker": "A:66:3",
+      "start": 1898.1999999999998,
+      "text": "have",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1898.6,
+      "node": "A:66:3",
+      "score": 0.934229773299051,
+      "speaker": "A:66:3",
+      "start": 1898.3999999999999,
+      "text": "not",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1899.1599999999999,
+      "node": "A:66:3",
+      "score": 4.074219060540399e-05,
+      "speaker": "A:66:3",
+      "start": 1899.1,
+      "text": "uh",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1900.02,
+      "node": "A:66:3",
+      "score": 0.953726615954889,
+      "speaker": "A:66:3",
+      "start": 1899.58,
+      "text": "invited",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1900.22,
+      "node": "A:66:3",
+      "score": 0.9992838270213814,
+      "speaker": "A:66:3",
+      "start": 1900.1999999999998,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1900.72,
+      "node": "A:66:3",
+      "score": 0.9668595737980296,
+      "speaker": "A:66:3",
+      "start": 1900.32,
+      "text": "witness",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1900.8999999999999,
+      "node": "A:66:3",
+      "score": 0.999967635809814,
+      "speaker": "A:66:3",
+      "start": 1900.8,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1901.3,
+      "node": "A:66:3",
+      "score": 0.999226874125145,
+      "speaker": "A:66:3",
+      "start": 1900.98,
+      "text": "address",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1901.48,
+      "node": "A:66:3",
+      "score": 0.9951411640079998,
+      "speaker": "A:66:3",
+      "start": 1901.3799999999999,
+      "text": "what",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1901.56,
+      "node": "A:66:3",
+      "score": 0.9991539727674924,
+      "speaker": "A:66:3",
+      "start": 1901.54,
+      "text": "I",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1901.78,
+      "node": "A:66:3",
+      "score": 0.9988640857778993,
+      "speaker": "A:66:3",
+      "start": 1901.6399999999999,
+      "text": "think",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1902.0,
+      "node": "A:66:3",
+      "score": 0.7609255679631802,
+      "speaker": "A:66:3",
+      "start": 1901.8799999999999,
+      "text": "are",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1902.28,
+      "node": "A:66:3",
+      "score": 0.735782512080622,
+      "speaker": "A:66:3",
+      "start": 1902.06,
+      "text": "some",
+      "timing": "ctc_forced"
+    }
+  ],
+  "B": [
+    {
+      "end": 1872.19,
+      "node": "B:80:1",
+      "score": 0.5544585401639329,
+      "speaker": null,
+      "start": 1872.11,
+      "text": "so",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1872.41,
+      "node": "B:80:1",
+      "score": 0.6657544942719452,
+      "speaker": null,
+      "start": 1872.27,
+      "text": "it's",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1872.47,
+      "node": "B:80:1",
+      "score": 0.9368468280855822,
+      "speaker": null,
+      "start": 1872.45,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1873.27,
+      "node": "B:80:1",
+      "score": 0.9791477888897802,
+      "speaker": null,
+      "start": 1872.55,
+      "text": "significant",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1873.61,
+      "node": "B:80:1",
+      "score": 0.19510189624332405,
+      "speaker": null,
+      "start": 1873.57,
+      "text": "um",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1874.45,
+      "node": "B:80:1",
+      "score": 0.9916466098466147,
+      "speaker": null,
+      "start": 1873.67,
+      "text": "discrimination",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1874.95,
+      "node": "B:80:1",
+      "score": 0.882615924784376,
+      "speaker": null,
+      "start": 1874.87,
+      "text": "and",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1875.11,
+      "node": "B:80:1",
+      "score": 0.9176250893724921,
+      "speaker": null,
+      "start": 1874.99,
+      "text": "it's",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1875.21,
+      "node": "B:80:1",
+      "score": 0.9721690699428678,
+      "speaker": null,
+      "start": 1875.17,
+      "text": "an",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1875.93,
+      "node": "B:80:1",
+      "score": 0.8744845711307557,
+      "speaker": null,
+      "start": 1875.27,
+      "text": "incentive",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1876.59,
+      "node": "B:80:1",
+      "score": 0.9660081116784578,
+      "speaker": null,
+      "start": 1876.47,
+      "text": "for",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1876.99,
+      "node": "B:80:1",
+      "score": 0.9353031734698877,
+      "speaker": null,
+      "start": 1876.69,
+      "text": "small",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1877.71,
+      "node": "B:80:1",
+      "score": 0.941790747380204,
+      "speaker": null,
+      "start": 1877.07,
+      "text": "employers",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1878.3100000000002,
+      "node": "B:80:1",
+      "score": 0.9865562918250822,
+      "speaker": null,
+      "start": 1878.23,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1878.67,
+      "node": "B:80:1",
+      "score": 0.9995710585515531,
+      "speaker": null,
+      "start": 1878.41,
+      "text": "stop",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1879.21,
+      "node": "B:80:1",
+      "score": 0.9944123622166336,
+      "speaker": null,
+      "start": 1878.8300000000002,
+      "text": "offering",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1879.69,
+      "node": "B:80:1",
+      "score": 0.9332185277338942,
+      "speaker": null,
+      "start": 1879.2900000000002,
+      "text": "coverage.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1880.23,
+      "node": "B:80:1",
+      "score": 0.44535324883060456,
+      "speaker": null,
+      "start": 1880.09,
+      "text": "Um,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1880.73,
+      "node": "B:80:1",
+      "score": 0.9977643768402326,
+      "speaker": null,
+      "start": 1880.65,
+      "text": "and",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1881.01,
+      "node": "B:80:1",
+      "score": 0.9754831310876879,
+      "speaker": null,
+      "start": 1880.8100000000002,
+      "text": "that",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1881.41,
+      "node": "B:80:1",
+      "score": 0.9998012144520915,
+      "speaker": null,
+      "start": 1881.2900000000002,
+      "text": "is",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1881.93,
+      "node": "B:80:1",
+      "score": 0.9889702377942399,
+      "speaker": null,
+      "start": 1881.5900000000001,
+      "text": "really",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1882.39,
+      "node": "B:80:1",
+      "score": 0.006364886746408115,
+      "speaker": null,
+      "start": 1882.3500000000001,
+      "text": "um",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1882.77,
+      "node": "B:80:1",
+      "score": 0.9860541055330058,
+      "speaker": null,
+      "start": 1882.63,
+      "text": "would",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1882.8500000000001,
+      "node": "B:80:1",
+      "score": 0.9997948881770775,
+      "speaker": null,
+      "start": 1882.8100000000002,
+      "text": "be",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1882.93,
+      "node": "B:80:1",
+      "score": 0.9660415191926948,
+      "speaker": null,
+      "start": 1882.91,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1883.41,
+      "node": "B:80:1",
+      "score": 0.9870970222231054,
+      "speaker": null,
+      "start": 1882.97,
+      "text": "detriment",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1883.51,
+      "node": "B:80:1",
+      "score": 0.9992577223429231,
+      "speaker": null,
+      "start": 1883.45,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1883.6100000000001,
+      "node": "B:80:1",
+      "score": 0.981328803110744,
+      "speaker": null,
+      "start": 1883.5500000000002,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1883.95,
+      "node": "B:80:1",
+      "score": 0.988701426323865,
+      "speaker": null,
+      "start": 1883.67,
+      "text": "federal",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1884.33,
+      "node": "B:80:1",
+      "score": 0.9314094324185312,
+      "speaker": null,
+      "start": 1884.01,
+      "text": "budget",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1884.59,
+      "node": "B:80:1",
+      "score": 0.9478968687938181,
+      "speaker": null,
+      "start": 1884.3899999999999,
+      "text": "because",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1884.6699999999998,
+      "node": "B:80:1",
+      "score": 0.9095802736379814,
+      "speaker": null,
+      "start": 1884.6299999999999,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1884.79,
+      "node": "B:80:1",
+      "score": 0.876264446838755,
+      "speaker": null,
+      "start": 1884.7099999999998,
+      "text": "how",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1885.27,
+      "node": "B:80:1",
+      "score": 0.9953053144300079,
+      "speaker": null,
+      "start": 1884.85,
+      "text": "expensive",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1885.4299999999998,
+      "node": "B:80:1",
+      "score": 0.9970336309914285,
+      "speaker": null,
+      "start": 1885.35,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1885.97,
+      "node": "B:80:1",
+      "score": 0.7185080703360136,
+      "speaker": null,
+      "start": 1885.51,
+      "text": "Obamacare",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1886.3899999999999,
+      "node": "B:80:1",
+      "score": 0.958307194321277,
+      "speaker": null,
+      "start": 1885.99,
+      "text": "subsidies",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1886.51,
+      "node": "B:80:1",
+      "score": 0.9393024970093875,
+      "speaker": null,
+      "start": 1886.4299999999998,
+      "text": "are.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1887.19,
+      "node": "B:80:2",
+      "score": 0.9906254665577194,
+      "speaker": null,
+      "start": 1887.05,
+      "text": "Thank",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1887.31,
+      "node": "B:80:2",
+      "score": 0.9938882637809557,
+      "speaker": null,
+      "start": 1887.23,
+      "text": "you,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1887.53,
+      "node": "B:80:2",
+      "score": 0.9812525328217425,
+      "speaker": null,
+      "start": 1887.3700000000001,
+      "text": "sir.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1888.13,
+      "node": "B:80:3",
+      "score": 0.0006500278567166496,
+      "speaker": null,
+      "start": 1887.8500000000001,
+      "text": "Mm-hmm.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1889.1699999999998,
+      "node": "B:80:4",
+      "score": 0.2549078270842836,
+      "speaker": null,
+      "start": 1888.71,
+      "text": "Dominique",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1889.47,
+      "node": "B:80:4",
+      "score": 0.2775185939147782,
+      "speaker": null,
+      "start": 1889.23,
+      "text": "Bach,",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1890.1699999999998,
+      "node": "B:80:4",
+      "score": 0.12120122600182374,
+      "speaker": null,
+      "start": 1889.79,
+      "text": "Congresswoman",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1890.49,
+      "node": "B:80:4",
+      "score": 0.011516803805828481,
+      "speaker": null,
+      "start": 1890.4099999999999,
+      "text": "from",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1890.97,
+      "node": "B:80:4",
+      "score": 0.09035958441922536,
+      "speaker": null,
+      "start": 1890.55,
+      "text": "Wyoming.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1892.51,
+      "node": "B:80:5",
+      "score": 0.9320208663210634,
+      "speaker": null,
+      "start": 1892.33,
+      "text": "Thank",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.29,
+      "node": "B:80:5",
+      "score": 0.33330067111687134,
+      "speaker": null,
+      "start": 1893.15,
+      "text": "you.",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1892.7099999999998,
+      "node": "B:80:5",
+      "score": 6.261050871528843e-05,
+      "speaker": null,
+      "start": 1892.6899999999998,
+      "text": "I",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.2099999999998,
+      "node": "B:80:5",
+      "score": 0.9997237262283851,
+      "speaker": null,
+      "start": 1893.1499999999999,
+      "text": "do",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.4099999999999,
+      "node": "B:80:5",
+      "score": 0.9947858288443857,
+      "speaker": null,
+      "start": 1893.29,
+      "text": "want",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.53,
+      "node": "B:80:5",
+      "score": 0.9957409296759335,
+      "speaker": null,
+      "start": 1893.4699999999998,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.83,
+      "node": "B:80:5",
+      "score": 0.9998176517039626,
+      "speaker": null,
+      "start": 1893.59,
+      "text": "record",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1893.9299999999998,
+      "node": "B:80:5",
+      "score": 0.9998483887761493,
+      "speaker": null,
+      "start": 1893.8899999999999,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1894.4499999999998,
+      "node": "B:80:5",
+      "score": 0.941921845398785,
+      "speaker": null,
+      "start": 1894.01,
+      "text": "reflect",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1894.9699999999998,
+      "node": "B:80:5",
+      "score": 0.9963672750898166,
+      "speaker": null,
+      "start": 1894.79,
+      "text": "that",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1895.2299999999998,
+      "node": "B:80:5",
+      "score": 0.9955277863079743,
+      "speaker": null,
+      "start": 1895.09,
+      "text": "none",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1895.31,
+      "node": "B:80:5",
+      "score": 0.9997923209701778,
+      "speaker": null,
+      "start": 1895.27,
+      "text": "of",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1895.4299999999998,
+      "node": "B:80:5",
+      "score": 0.9992489616194801,
+      "speaker": null,
+      "start": 1895.37,
+      "text": "the",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1895.99,
+      "node": "B:80:5",
+      "score": 0.9945655952823932,
+      "speaker": null,
+      "start": 1895.49,
+      "text": "Democrats",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1896.1899999999998,
+      "node": "B:80:5",
+      "score": 0.9910391488045395,
+      "speaker": null,
+      "start": 1896.07,
+      "text": "have",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1896.4499999999998,
+      "node": "B:80:5",
+      "score": 0.991441653900494,
+      "speaker": null,
+      "start": 1896.25,
+      "text": "shown",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1896.88,
+      "node": "B:81:1",
+      "score": 0.9993562883197296,
+      "speaker": null,
+      "start": 1896.7600000000002,
+      "text": "for",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1897.1200000000001,
+      "node": "B:81:1",
+      "score": 0.9245213822110254,
+      "speaker": null,
+      "start": 1896.96,
+      "text": "this",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1897.5,
+      "node": "B:81:1",
+      "score": 0.9297839274013201,
+      "speaker": null,
+      "start": 1897.18,
+      "text": "hearing",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1898.1200000000001,
+      "node": "B:81:1",
+      "score": 0.99877155599081,
+      "speaker": null,
+      "start": 1898.0400000000002,
+      "text": "and",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1898.3400000000001,
+      "node": "B:81:1",
+      "score": 0.9990795547246908,
+      "speaker": null,
+      "start": 1898.2,
+      "text": "have",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1898.6000000000001,
+      "node": "B:81:1",
+      "score": 0.8952894130033517,
+      "speaker": null,
+      "start": 1898.4,
+      "text": "not",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1899.16,
+      "node": "B:81:1",
+      "score": 4.026832708179431e-05,
+      "speaker": null,
+      "start": 1899.1000000000001,
+      "text": "uh",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1900.0200000000002,
+      "node": "B:81:1",
+      "score": 0.9997150946032943,
+      "speaker": null,
+      "start": 1899.5800000000002,
+      "text": "invited",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1900.22,
+      "node": "B:81:1",
+      "score": 0.9994693236036425,
+      "speaker": null,
+      "start": 1900.2,
+      "text": "a",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1900.72,
+      "node": "B:81:1",
+      "score": 0.9855255128829724,
+      "speaker": null,
+      "start": 1900.3200000000002,
+      "text": "witness",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1900.9,
+      "node": "B:81:1",
+      "score": 0.9999755031856699,
+      "speaker": null,
+      "start": 1900.8000000000002,
+      "text": "to",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1901.3000000000002,
+      "node": "B:81:1",
+      "score": 0.9994438090331386,
+      "speaker": null,
+      "start": 1900.98,
+      "text": "address",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1901.48,
+      "node": "B:81:1",
+      "score": 0.9968381216060525,
+      "speaker": null,
+      "start": 1901.38,
+      "text": "what",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1901.5600000000002,
+      "node": "B:81:1",
+      "score": 0.9993608509297072,
+      "speaker": null,
+      "start": 1901.5400000000002,
+      "text": "i",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1901.7800000000002,
+      "node": "B:81:1",
+      "score": 0.988255811147878,
+      "speaker": null,
+      "start": 1901.64,
+      "text": "think",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1902.0,
+      "node": "B:81:1",
+      "score": 0.769175973979821,
+      "speaker": null,
+      "start": 1901.88,
+      "text": "are",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1902.2,
+      "node": "B:81:1",
+      "score": 0.7682760514380822,
+      "speaker": null,
+      "start": 1902.0600000000002,
+      "text": "some",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1902.8000000000002,
+      "node": "B:81:1",
+      "score": 0.9395354222097384,
+      "speaker": null,
+      "start": 1902.2600000000002,
+      "text": "incredibly",
+      "timing": "ctc_forced"
+    },
+    {
+      "end": 1903.8000000000002,
+      "node": "B:81:1",
+      "score": 0.6893503084183437,
+      "speaker": null,
+      "start": 1903.2600000000002,
+      "text": "important",
+      "timing": "ctc_forced"
+    }
+  ]
+}
